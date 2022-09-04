@@ -1,0 +1,60 @@
+2022-09-03 11:37:15,251 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:50] Starting CommunityApplication on macbook-pro-2 with PID 44412 (/Users/cuitiangui/Desktop/ideaworkspace/community/target/classes started by cuitiangui in /Users/cuitiangui/Desktop/ideaworkspace/community)
+2022-09-03 11:37:15,256 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:675] No active profile set, falling back to default profiles: default
+2022-09-03 11:37:15,308 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:227] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-09-03 11:37:15,308 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:227] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-09-03 11:37:16,607 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:244] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-09-03 11:37:16,614 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:126] Bootstrapping Spring Data repositories in DEFAULT mode.
+2022-09-03 11:37:17,009 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:182] Finished Spring Data repository scanning in 379ms. Found 1 repository interfaces.
+2022-09-03 11:37:17,067 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:244] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-09-03 11:37:17,072 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:126] Bootstrapping Spring Data repositories in DEFAULT mode.
+2022-09-03 11:37:17,138 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationExtensionSupport [RepositoryConfigurationExtensionSupport.java:363] Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nowcoder.community.dao.elasticsearch.DiscussPostRepository.
+2022-09-03 11:37:17,139 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:182] Finished Spring Data repository scanning in 32ms. Found 0 repository interfaces.
+2022-09-03 11:37:19,075 INFO [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:330] Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$9b619f8c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-09-03 11:37:19,244 INFO [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c7af8e09] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-09-03 11:37:20,027 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:90] Tomcat initialized with port(s): 8080 (http)
+2022-09-03 11:37:20,052 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-09-03 11:37:20,063 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-09-03 11:37:20,063 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.19]
+2022-09-03 11:37:20,209 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-09-03 11:37:20,210 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:296] Root WebApplicationContext: initialization completed in 4901 ms
+2022-09-03 11:37:22,383 INFO [restartedMain] c.n.c.c.WkConfig [WkConfig.java:26] 创建WK图片目录: d:/work/data/wk-images
+2022-09-03 11:37:28,062 INFO [restartedMain] o.e.p.PluginsService [PluginsService.java:190] no modules loaded
+2022-09-03 11:37:28,064 INFO [restartedMain] o.e.p.PluginsService [PluginsService.java:193] loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2022-09-03 11:37:28,064 INFO [restartedMain] o.e.p.PluginsService [PluginsService.java:193] loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2022-09-03 11:37:28,065 INFO [restartedMain] o.e.p.PluginsService [PluginsService.java:193] loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2022-09-03 11:37:28,065 INFO [restartedMain] o.e.p.PluginsService [PluginsService.java:193] loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2022-09-03 11:37:28,065 INFO [restartedMain] o.e.p.PluginsService [PluginsService.java:193] loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2022-09-03 11:37:29,493 INFO [restartedMain] o.s.d.e.c.TransportClientFactoryBean [TransportClientFactoryBean.java:88] Adding transport node : 127.0.0.1:9300
+2022-09-03 11:37:34,963 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:57] LiveReload server is running on port 35729
+2022-09-03 11:37:35,086 INFO [restartedMain] o.s.s.c.ThreadPoolTaskScheduler [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'taskScheduler'
+2022-09-03 11:37:35,740 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2022-09-03 11:37:35,911 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:61] Adding welcome page template: index
+2022-09-03 11:37:36,609 INFO [restartedMain] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2022-09-03 11:37:37,881 INFO [restartedMain] o.q.i.StdSchedulerFactory [StdSchedulerFactory.java:1208] Using default implementation for ThreadExecutor
+2022-09-03 11:37:42,901 INFO [restartedMain] o.q.c.SchedulerSignalerImpl [SchedulerSignalerImpl.java:61] Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2022-09-03 11:37:42,901 INFO [restartedMain] o.q.c.QuartzScheduler [QuartzScheduler.java:229] Quartz Scheduler v.2.3.1 created.
+2022-09-03 11:37:42,908 INFO [restartedMain] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2022-09-03 11:37:43,920 INFO [restartedMain] o.s.s.q.LocalDataSourceJobStore [JobStoreSupport.java:3644] Could not detect database type. Assuming locks can be taken.
+2022-09-03 11:37:43,922 INFO [restartedMain] o.s.s.q.LocalDataSourceJobStore [JobStoreSupport.java:672] Using db table-based data access locking (synchronization).
+2022-09-03 11:37:43,928 INFO [restartedMain] o.s.s.q.LocalDataSourceJobStore [JobStoreCMT.java:145] JobStoreCMT initialized.
+2022-09-03 11:37:43,931 INFO [restartedMain] o.q.c.QuartzScheduler [QuartzScheduler.java:294] Scheduler meta-data: Quartz Scheduler (v2.3.1) 'communityScheduler' with instanceId 'macbook-pro-21662176262885'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 5 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+2022-09-03 11:37:43,932 INFO [restartedMain] o.q.i.StdSchedulerFactory [StdSchedulerFactory.java:1362] Quartz scheduler 'communityScheduler' initialized from an externally provided properties instance.
+2022-09-03 11:37:43,932 INFO [restartedMain] o.q.i.StdSchedulerFactory [StdSchedulerFactory.java:1366] Quartz scheduler version: 2.3.1
+2022-09-03 11:37:43,933 INFO [restartedMain] o.q.c.QuartzScheduler [QuartzScheduler.java:2293] JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@229556c4
+2022-09-03 11:37:43,937 INFO [restartedMain] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2022-09-03 11:37:44,945 INFO [restartedMain] o.q.c.QuartzScheduler [QuartzScheduler.java:666] Scheduler communityScheduler_$_macbook-pro-21662176262885 shutting down.
+2022-09-03 11:37:44,946 INFO [restartedMain] o.q.c.QuartzScheduler [QuartzScheduler.java:585] Scheduler communityScheduler_$_macbook-pro-21662176262885 paused.
+2022-09-03 11:37:45,408 INFO [restartedMain] o.q.c.QuartzScheduler [QuartzScheduler.java:740] Scheduler communityScheduler_$_macbook-pro-21662176262885 shutdown complete.
+2022-09-03 11:37:45,412 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-09-03 11:37:45,413 INFO [restartedMain] o.s.s.c.ThreadPoolTaskScheduler [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'taskScheduler'
+2022-09-03 11:37:45,449 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Stopping service [Tomcat]
+2022-09-03 11:37:45,463 INFO [restartedMain] o.s.b.a.l.ConditionEvaluationReportLoggingListener [ConditionEvaluationReportLoggingListener.java:142] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
